@@ -1,0 +1,84 @@
+
+.container{
+    background: #141414;
+    color: #fff;
+}
+.Hero-container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.Hero-content{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+.Hero-content a{
+    color: #fff;
+    font-size: small;
+
+}
+.Hero-content h2{
+    width:20rem ;
+}
+.Hero-content p{
+    width:78%;
+    color: #6f6f6f;
+    font-size: small;
+}
+.Homepage-img{
+    width: 25rem;
+}
+.Hero-img{
+    width: 100px;
+    margin-left: -10rem;
+    border: 1px solid;
+}
+.Explore-btn{
+    background-color: #1e1e1e;
+    color: #fff;
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+}
+.Browse-btn{
+    background-color: #703bf7;
+    color: #fff;
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+}
+.review-section {
+    display: flex;
+  
+   
+}
+.review-one{
+    background-color:#191919 ;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    border: 1px solid green;
+    height: 2px;
+
+}
+.review-two{
+    background-color:#191919 ;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    border: 1px solid green;
+
+}
+.review-three{
+    background-color:#191919 ;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+    border: 1px solid green;
+}

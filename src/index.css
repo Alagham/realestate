@@ -1,0 +1,28 @@
+/* Import the Urbanist font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the default font for the entire application */
+html, body {
+  font-family: 'Urbanist', sans-serif;
+}
+
+/* Ensuring full height for the entire app */
+html, body, #root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* This ensures that the main content area takes the remaining space */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
