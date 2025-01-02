@@ -19,19 +19,28 @@
 }
 .Hero-content h2{
     width:20rem ;
+    margin-top: 30px;
 }
 .Hero-content p{
     width:78%;
     color: #6f6f6f;
     font-size: small;
+    margin-top: 30px;
 }
 .Homepage-img{
-    width: 25rem;
+    width: 30rem;
+    margin-right: -5rem;
+    height:30rem;
+    margin-top: -1rem;
 }
 .Hero-img{
     width: 100px;
     margin-left: -10rem;
     border: 1px solid;
+    margin-top: 9rem;
+}
+.btns{
+    margin-top: 30px;
 }
 .Explore-btn{
     background-color: #1e1e1e;
@@ -55,7 +64,8 @@
 }
 .review-section {
     display: flex;
-  
+    margin-top: 30px;
+    gap: 30px;
    
 }
 .review-one{
