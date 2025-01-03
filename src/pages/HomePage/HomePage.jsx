@@ -3,6 +3,10 @@ import "../../styles/HomePage.css"
 import Button from "../../components/button.jsx"
 import HomePageImg from"../../assets/homepage.svg"
 import HeroImg from"../../assets/HeroImg.svg"
+import Dreamhome from"../../assets/dreamhomeImg.svg"
+import PropertiesImg from"../../assets/propertiesImg.svg"
+import ManagementImg from"../../assets/managementImg.svg"
+import InformationImg from"../../assets/informationimg.svg"
 const HomePage = () => {
 
     const handleClick = () => {
@@ -51,7 +55,24 @@ const HomePage = () => {
                 <img className='Homepage-img' src={HomePageImg} alt="" />
             </div>
         </div>
-        <div></div>
+        <div className='searchIcon'>
+            <div className='dreamhome'>
+                <img src={Dreamhome} alt="" />
+                <p>Find Your Dream Home</p>
+            </div>
+            <div className='properties'>
+                <img src={PropertiesImg} alt="properties" />
+                <p>Unlock Property Value</p>
+            </div>
+            <div className='managements'>
+                <img src={ManagementImg} alt="" />
+                <p>Effortless Property Management</p>
+            </div>
+            <div className='information'>
+                <img src={InformationImg} alt="" />
+                <p>Smart Investments, Informed Decisions</p>
+            </div>
+        </div>
     </div>
   )
 }
